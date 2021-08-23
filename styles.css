@@ -1,0 +1,39 @@
+*  { 
+    margin: 0px;
+}
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#header {
+    background-color: lightcoral;    
+    grid-area: 1 / 1 / 2 / 6;
+}
+
+#topArticle {
+    background-color: lightskyblue;
+    grid-area: 2 / 3 / 3 / 6;
+}
+
+#sideImage {
+    background-color: lightgreen;
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+#sideArticle {
+    background-color: lightseagreen;
+    grid-area: 3 / 3 / 4 / 6;
+}
+
+#mainArticle {
+    background-color: lightslategrey;
+    grid-area: 4 / 1 / 5 / 6;
+}
+
+#footer {
+    background-color: mediumpurple;
+    grid-area: 5 / 1 / 6 / 6;
+}
